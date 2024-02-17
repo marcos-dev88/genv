@@ -8,7 +8,7 @@ $ cd example
 ```
 
 ## Example of usage
-1. Defining env files:
+1. Defining env files in functions's params:
 ```go
 import (
 	"log"
@@ -17,6 +17,7 @@ import (
 )
 
 func init() {
+    // If you only have .env file, then you can use this function without any params
 	if err := genv.New(".env", ".env.example"); err != nil {
 		log.Printf("error -> %v", err)
 	}
@@ -27,7 +28,7 @@ func main() {
 }
 ```
 
-2. Not files defined in function:
+2. Not files defined in function's params:
 ```go
 import (
 	"log"
