@@ -1,5 +1,3 @@
-# genv
-
 # genv ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/marcos-dev88/genv?color=%2329D6D8&logo=Go&logoColor=%2329D6D8)
 This repository contains a library to define environment varibales by file.
 
